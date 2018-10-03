@@ -1,0 +1,19 @@
+
+.jumbotron-fluid{
+    width: 100%;
+    background-color: rgba(0, 81, 143, 0.1);
+}
+
+.btn-md{
+    display: inline-block;
+}
+
+a.btn{
+    background-color: rgba(196, 38, 29);
+    color: #fff;
+}
+div.container{
+    text-align: center !important;
+    background-color: #fff;
+    padding: 20px;
+}

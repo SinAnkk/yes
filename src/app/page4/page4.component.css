@@ -1,0 +1,10 @@
+
+div.container{
+    text-align: center !important;
+    background-color: #fff;
+    padding-bottom: 10px;
+    max-width: 600px;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover, .btn {
+    background-color: #C4261D;
+}

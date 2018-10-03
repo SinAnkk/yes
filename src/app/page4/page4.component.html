@@ -1,0 +1,76 @@
+  <br>
+  <br>
+  <div class="container">
+  
+  <br>
+  
+  
+  <div class="row">
+  
+      <div class="text-container">Please review the below information to complete your PAN update request.</div>
+      <hr>
+  
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">date_range</i>  -->
+            <input id="ePan" type="text" class="validate" disabled >
+            <label for="ePan" class="uirender-label custom-label">Your Existing PAN as per Bank Records</label>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="input-field col s12">
+            <!-- <i class="material-icons prefix">date_range</i>  -->
+          <input id="eName" type="text" class="validate" disabled >
+          <label for="eName" class="uirender-label custom-label">Name as per Banks Record</label>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">date_range</i>  -->
+            <input id="nPan" type="text" class="validate" disabled >
+            <label for="nPan" class="uirender-label custom-label">Your New PAN</label>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="input-field col s12">
+            <!-- <i class="material-icons prefix">date_range</i>  -->
+          <input id="nName" type="text" class="validate" disabled >
+          <label for="nName" class="uirender-label custom-label">Name as per New PAN</label>
+        </div>
+      </div>
+  
+  
+        <div class="row">
+          <div class="input-field col s12">
+            <!-- <i class="material-icons prefix">info_outline</i>  -->
+            <input id="nPan" type="text" class="validate">
+            <label for="nPan">New PAN</label>
+          </div>
+        </div>
+
+        <div class = "row">
+          
+            <label>Unfortunately your name as per the bank records and the name as per the new PAN do NOT match. Hence please upload a photo copy of your new PAN and click the 'Continue' button.</label>
+            <div class = "file-field input-field">
+               <div class = "btn">
+                  <span>Browse</span>
+                  <input type = "file" />
+               </div>
+               
+               <div class = "file-path-wrapper">
+                  <input class = "file-path validate" type = "text"
+                     placeholder = "Upload file" />
+               </div>
+            </div>
+         </div>
+  
+        <button type="submit" (click)= "redirect()" class="btn btn-primary">Submit</button>
+  
+      </form>
+    </div>
+  
+  </div>
